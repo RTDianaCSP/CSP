@@ -1,0 +1,24 @@
+# Arquivos compilados de python
+__pycache__/
+*.pyc
+*.pyo
+
+# Contorna virtual
+venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de datos temporais
+data/*.bak
+data/*.tmp
+
+# Variables de contorna
+.env
+
+#os .json non os ignoro xa que imos ter uns productos base

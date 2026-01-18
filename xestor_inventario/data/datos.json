@@ -1,0 +1,1054 @@
+{
+    "categorias": [
+        {
+            "deporte": "Running",
+            "modelos": [
+                {
+                    "marca": "Nike",
+                    "modelo": "Air Zoom Pegasus 40",
+                    "ventas": 4,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "asfalto",
+                        "amortiguacion": "media",
+                        "peso": 285
+                    },
+                    "cores": [
+                        {
+                            "cor": "Negro",
+                            "tallas": [
+                                40,
+                                40,
+                                41
+                            ]
+                        },
+                        {
+                            "cor": "Azul",
+                            "tallas": [
+                                36,
+                                36,
+                                38,
+                                39,
+                                40,
+                                41
+                            ]
+                        },
+                        {
+                            "cor": "Branco",
+                            "tallas": []
+                        },
+                        {
+                            "cor": "Vermello",
+                            "tallas": []
+                        }
+                    ]
+                },
+                {
+                    "marca": "Adidas",
+                    "modelo": "Ultraboost Light",
+                    "ventas": 10,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "asfalto",
+                        "amortiguacion": "alta",
+                        "peso": 299
+                    },
+                    "cores": [
+                        {
+                            "cor": "Negro",
+                            "tallas": [
+                                39,
+                                41,
+                                42
+                            ]
+                        },
+                        {
+                            "cor": "Rosa",
+                            "tallas": []
+                        },
+                        {
+                            "cor": "Branco",
+                            "tallas": []
+                        }
+                    ]
+                },
+                {
+                    "marca": "Asics",
+                    "modelo": "Gel Nimbus 25",
+                    "ventas": 15,
+                    "caracteristicas": {
+                        "pisada": "pronadora",
+                        "superficie": "asfalto",
+                        "amortiguacion": "alta",
+                        "peso": 290
+                    },
+                    "cores": [
+                        {
+                            "cor": "Azul",
+                            "tallas": [
+                                38,
+                                39,
+                                40
+                            ]
+                        },
+                        {
+                            "cor": "Branco",
+                            "tallas": [
+                                35,
+                                36,
+                                40,
+                                42,
+                                42,
+                                43
+                            ]
+                        },
+                        {
+                            "cor": "Verde",
+                            "tallas": [
+                                40,
+                                40,
+                                41
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Brooks",
+                    "modelo": "Ghost 15",
+                    "ventas": 0,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "asfalto",
+                        "amortiguacion": "media",
+                        "peso": 286
+                    },
+                    "cores": [
+                        {
+                            "cor": "Gris",
+                            "tallas": []
+                        }
+                    ]
+                },
+                {
+                    "marca": "New Balance",
+                    "modelo": "Fresh Foam 1080v13",
+                    "ventas": 2,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "asfalto",
+                        "amortiguacion": "alta",
+                        "peso": 292
+                    },
+                    "cores": [
+                        {
+                            "cor": "Branco",
+                            "tallas": [
+                                37,
+                                38,
+                                39
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Saucony",
+                    "modelo": "Endorphin Speed 3",
+                    "ventas": 4,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "asfalto",
+                        "amortiguacion": "media",
+                        "peso": 229
+                    },
+                    "cores": [
+                        {
+                            "cor": "Laranxa",
+                            "tallas": [
+                                40,
+                                41
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Hoka",
+                    "modelo": "Clifton 9",
+                    "ventas": 10,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "asfalto",
+                        "amortiguacion": "alta",
+                        "peso": 248
+                    },
+                    "cores": [
+                        {
+                            "cor": "Azul",
+                            "tallas": [
+                                38,
+                                39,
+                                40,
+                                41
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Puma",
+                    "modelo": "Deviate Nitro 2",
+                    "ventas": 0,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "asfalto",
+                        "amortiguacion": "media",
+                        "peso": 260
+                    },
+                    "cores": [
+                        {
+                            "cor": "Negro",
+                            "tallas": [
+                                40,
+                                41,
+                                42
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Mizuno",
+                    "modelo": "Wave Rider 27",
+                    "ventas": 10,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "asfalto",
+                        "amortiguacion": "media",
+                        "peso": 280
+                    },
+                    "cores": [
+                        {
+                            "cor": "Azul",
+                            "tallas": [
+                                39,
+                                40,
+                                41
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Salomon",
+                    "modelo": "Aero Glide",
+                    "ventas": 5,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "asfalto",
+                        "amortiguacion": "alta",
+                        "peso": 275
+                    },
+                    "cores": [
+                        {
+                            "cor": "Verde",
+                            "tallas": []
+                        }
+                    ]
+                },
+                {
+                    "marca": "Under Armour",
+                    "modelo": "HOVR Machina 3",
+                    "ventas": 10,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "asfalto",
+                        "amortiguacion": "media",
+                        "peso": 269
+                    },
+                    "cores": [
+                        {
+                            "cor": "Negro",
+                            "tallas": [
+                                40,
+                                41
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Asics",
+                    "modelo": "Gel-Kayano 30",
+                    "ventas": 3,
+                    "caracteristicas": {
+                        "pisada": "pronadora",
+                        "superficie": "asfalto",
+                        "amortiguacion": "alta",
+                        "peso": 305
+                    },
+                    "cores": [
+                        {
+                            "cor": "Branco",
+                            "tallas": [
+                                38,
+                                39,
+                                40,
+                                41
+                            ]
+                        },
+                        {
+                            "cor": "Vermello",
+                            "tallas": [
+                                39,
+                                40
+                            ]
+                        },
+                        {
+                            "cor": "Amarelo",
+                            "tallas": []
+                        }
+                    ]
+                },
+                {
+                    "marca": "Asics",
+                    "modelo": "Gel Cumulus Tokyo",
+                    "ventas": 2,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "asfalto",
+                        "amortiguacion": "alta",
+                        "peso": "200"
+                    },
+                    "cores": [
+                        {
+                            "cor": "vermello",
+                            "tallas": []
+                        },
+                        {
+                            "cor": "branco",
+                            "tallas": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "deporte": "Baloncesto",
+            "modelos": [
+                {
+                    "marca": "Adidas",
+                    "modelo": "Harden Vol.7",
+                    "ventas": 2,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "pista",
+                        "amortiguacion": "alta",
+                        "peso": 410
+                    },
+                    "cores": [
+                        {
+                            "cor": "Vermello",
+                            "tallas": [
+                                36,
+                                38,
+                                38,
+                                39,
+                                39,
+                                39,
+                                40,
+                                41,
+                                42,
+                                42
+                            ]
+                        },
+                        {
+                            "cor": "Azul",
+                            "tallas": [
+                                37,
+                                39,
+                                39,
+                                40,
+                                40,
+                                40,
+                                42,
+                                43
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Nike",
+                    "modelo": "LeBron 21",
+                    "ventas": 13,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "pista",
+                        "amortiguacion": "moi alta",
+                        "peso": 445
+                    },
+                    "cores": [
+                        {
+                            "cor": "Negro/Dourado",
+                            "tallas": [
+                                39,
+                                40,
+                                41,
+                                41,
+                                42,
+                                43
+                            ]
+                        },
+                        {
+                            "cor": "Branco/Azul",
+                            "tallas": [
+                                37,
+                                39,
+                                39,
+                                40,
+                                40,
+                                40
+                            ]
+                        },
+                        {
+                            "cor": "Negro",
+                            "tallas": []
+                        }
+                    ]
+                },
+                {
+                    "marca": "Nike",
+                    "modelo": "KD 16",
+                    "ventas": 10,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "pista",
+                        "amortiguacion": "alta",
+                        "peso": 390
+                    },
+                    "cores": [
+                        {
+                            "cor": "Azul",
+                            "tallas": [
+                                38,
+                                39,
+                                40,
+                                40,
+                                41
+                            ]
+                        },
+                        {
+                            "cor": "Negro",
+                            "tallas": [
+                                38
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Under Armour",
+                    "modelo": "Curry 11",
+                    "ventas": 5,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "pista",
+                        "amortiguacion": "media",
+                        "peso": 365
+                    },
+                    "cores": [
+                        {
+                            "cor": "Branco/Azul",
+                            "tallas": [
+                                39,
+                                40,
+                                41,
+                                42
+                            ]
+                        },
+                        {
+                            "cor": "Rosa/Azul",
+                            "tallas": []
+                        }
+                    ]
+                },
+                {
+                    "marca": "Puma",
+                    "modelo": "MB.03",
+                    "ventas": 1,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "pista",
+                        "amortiguacion": "alta",
+                        "peso": 380
+                    },
+                    "cores": [
+                        {
+                            "cor": "Verde",
+                            "tallas": [
+                                38,
+                                39,
+                                39,
+                                40,
+                                41
+                            ]
+                        },
+                        {
+                            "cor": "Branco",
+                            "tallas": [
+                                38,
+                                40,
+                                40
+                            ]
+                        },
+                        {
+                            "cor": "Azul",
+                            "tallas": []
+                        }
+                    ]
+                },
+                {
+                    "marca": "Jordan",
+                    "modelo": "Zion 3",
+                    "ventas": 0,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "pista",
+                        "amortiguacion": "moi alta",
+                        "peso": 460
+                    },
+                    "cores": [
+                        {
+                            "cor": "Negro/Vermello",
+                            "tallas": [
+                                40,
+                                41,
+                                42
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "New Balance",
+                    "modelo": "Two Wxy v4",
+                    "ventas": 9,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "pista",
+                        "amortiguacion": "media",
+                        "peso": 385
+                    },
+                    "cores": [
+                        {
+                            "cor": "Gris",
+                            "tallas": [
+                                39,
+                                40,
+                                41,
+                                41
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "deporte": "Fútbol",
+            "modelos": [
+                {
+                    "marca": "Nike",
+                    "modelo": "Mercurial Vapor 15",
+                    "ventas": 13,
+                    "caracteristicas": {
+                        "tipo_suela": "FG",
+                        "terreno": "cesped natural",
+                        "peso": 195
+                    },
+                    "cores": [
+                        {
+                            "cor": "Branco",
+                            "tallas": [
+                                38,
+                                39,
+                                39,
+                                39,
+                                40,
+                                40
+                            ]
+                        },
+                        {
+                            "cor": "Negro",
+                            "tallas": []
+                        },
+                        {
+                            "cor": "Rosa",
+                            "tallas": [
+                                39,
+                                39,
+                                39,
+                                40,
+                                41,
+                                41
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Adidas",
+                    "modelo": "X Crazyfast.1",
+                    "ventas": 5,
+                    "caracteristicas": {
+                        "tipo_suela": "FG",
+                        "terreno": "cesped natural",
+                        "peso": 185
+                    },
+                    "cores": [
+                        {
+                            "cor": "Azul",
+                            "tallas": [
+                                39,
+                                40,
+                                40,
+                                41
+                            ]
+                        },
+                        {
+                            "cor": "Amarelo",
+                            "tallas": []
+                        }
+                    ]
+                },
+                {
+                    "marca": "Puma",
+                    "modelo": "Future Ultimate",
+                    "ventas": 15,
+                    "caracteristicas": {
+                        "tipo_suela": "FG/AG",
+                        "terreno": "cesped natural e artificial",
+                        "peso": 205
+                    },
+                    "cores": [
+                        {
+                            "cor": "Verde",
+                            "tallas": [
+                                38,
+                                39,
+                                40,
+                                41
+                            ]
+                        },
+                        {
+                            "cor": "Branco",
+                            "tallas": [
+                                39,
+                                39,
+                                42,
+                                42
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Nike",
+                    "modelo": "Tiempo Legend 10",
+                    "ventas": 12,
+                    "caracteristicas": {
+                        "tipo_suela": "FG",
+                        "terreno": "cesped natural",
+                        "peso": 230
+                    },
+                    "cores": [
+                        {
+                            "cor": "Negro/Dourado",
+                            "tallas": [
+                                40,
+                                41,
+                                42
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Adidas",
+                    "modelo": "Predator Accuracy.1",
+                    "ventas": 9,
+                    "caracteristicas": {
+                        "tipo_suela": "FG",
+                        "terreno": "cesped natural",
+                        "peso": 225
+                    },
+                    "cores": [
+                        {
+                            "cor": "Branco",
+                            "tallas": [
+                                39,
+                                40,
+                                41,
+                                42
+                            ]
+                        },
+                        {
+                            "cor": "Rosa",
+                            "tallas": [
+                                38,
+                                38,
+                                39,
+                                40,
+                                40,
+                                41,
+                                41,
+                                41
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Mizuno",
+                    "modelo": "Morelia Neo III",
+                    "ventas": 10,
+                    "caracteristicas": {
+                        "tipo_suela": "FG",
+                        "terreno": "cesped natural",
+                        "peso": 190
+                    },
+                    "cores": [
+                        {
+                            "cor": "Negro",
+                            "tallas": [
+                                39,
+                                40,
+                                41
+                            ]
+                        },
+                        {
+                            "cor": "Azul",
+                            "tallas": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "deporte": "Tenis",
+            "modelos": [
+                {
+                    "marca": "Asics",
+                    "modelo": "Gel Resolution 9",
+                    "ventas": 0,
+                    "caracteristicas": {
+                        "pisada": "pronadora",
+                        "superficie": "pista dura",
+                        "amortiguacion": "alta",
+                        "peso": 360
+                    },
+                    "cores": [
+                        {
+                            "cor": "Branco/Azul",
+                            "tallas": [
+                                38,
+                                39,
+                                40,
+                                40,
+                                40,
+                                40
+                            ]
+                        },
+                        {
+                            "cor": "Negro/Rosa",
+                            "tallas": [
+                                39,
+                                39,
+                                40
+                            ]
+                        },
+                        {
+                            "cor": "Branco/Verde",
+                            "tallas": []
+                        },
+                        {
+                            "cor": "Branco/Rosa",
+                            "tallas": [
+                                37
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Nike",
+                    "modelo": "Court Air Zoom Vapor Pro 2",
+                    "ventas": 0,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "pista dura",
+                        "amortiguacion": "media",
+                        "peso": 345
+                    },
+                    "cores": [
+                        {
+                            "cor": "Negro",
+                            "tallas": [
+                                39,
+                                40,
+                                41
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Adidas",
+                    "modelo": "Barricade 13",
+                    "ventas": 2,
+                    "caracteristicas": {
+                        "pisada": "pronadora",
+                        "superficie": "pista dura",
+                        "amortiguacion": "alta",
+                        "peso": 375
+                    },
+                    "cores": [
+                        {
+                            "cor": "Branco",
+                            "tallas": [
+                                38,
+                                39,
+                                40,
+                                41
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Babolat",
+                    "modelo": "Jet Mach 3",
+                    "ventas": 5,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "pista dura",
+                        "amortiguacion": "media",
+                        "peso": 325
+                    },
+                    "cores": [
+                        {
+                            "cor": "Azul",
+                            "tallas": [
+                                39,
+                                40
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Wilson",
+                    "modelo": "Rush Pro 4.0",
+                    "ventas": 10,
+                    "caracteristicas": {
+                        "pisada": "neutra",
+                        "superficie": "pista dura",
+                        "amortiguacion": "media",
+                        "peso": 350
+                    },
+                    "cores": [
+                        {
+                            "cor": "Negro/Verde",
+                            "tallas": [
+                                41
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Head",
+                    "modelo": "Revolt Pro 4.5",
+                    "ventas": 1,
+                    "caracteristicas": {
+                        "pisada": "pronadora",
+                        "superficie": "pista dura",
+                        "amortiguacion": "alta",
+                        "peso": 370
+                    },
+                    "cores": [
+                        {
+                            "cor": "Laranxa",
+                            "tallas": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "deporte": "Ximnasio",
+            "modelos": [
+                {
+                    "marca": "Reebok",
+                    "modelo": "Nano X3",
+                    "ventas": 8,
+                    "caracteristicas": {
+                        "uso": "cross training",
+                        "estabilidade": "alta",
+                        "peso": 340
+                    },
+                    "cores": [
+                        {
+                            "cor": "Gris",
+                            "tallas": [
+                                39,
+                                40,
+                                40,
+                                41,
+                                35
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Nike",
+                    "modelo": "Metcon 9",
+                    "ventas": 10,
+                    "caracteristicas": {
+                        "uso": "cross training",
+                        "estabilidade": "moi alta",
+                        "peso": 360
+                    },
+                    "cores": [
+                        {
+                            "cor": "Negro",
+                            "tallas": [
+                                41,
+                                42
+                            ]
+                        },
+                        {
+                            "cor": "Proba",
+                            "tallas": []
+                        }
+                    ]
+                },
+                {
+                    "marca": "Adidas",
+                    "modelo": "Dropset Trainer 2",
+                    "ventas": 0,
+                    "caracteristicas": {
+                        "uso": "halterofilia e forza",
+                        "estabilidade": "alta",
+                        "peso": 345
+                    },
+                    "cores": [
+                        {
+                            "cor": "Negro/Vermello",
+                            "tallas": [
+                                39,
+                                40,
+                                41
+                            ]
+                        },
+                        {
+                            "cor": "Negro/Branco",
+                            "tallas": []
+                        }
+                    ]
+                },
+                {
+                    "marca": "Under Armour",
+                    "modelo": "TriBase Reign 5",
+                    "ventas": 4,
+                    "caracteristicas": {
+                        "uso": "cross training",
+                        "estabilidade": "alta",
+                        "peso": 355
+                    },
+                    "cores": [
+                        {
+                            "cor": "Azul",
+                            "tallas": [
+                                40,
+                                41
+                            ]
+                        },
+                        {
+                            "cor": "Branco/Verde",
+                            "tallas": [
+                                40
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "Puma",
+                    "modelo": "Fuse 2.0",
+                    "ventas": 5,
+                    "caracteristicas": {
+                        "uso": "adestramento funcional",
+                        "estabilidade": "media",
+                        "peso": 330
+                    },
+                    "cores": [
+                        {
+                            "cor": "Verde",
+                            "tallas": []
+                        },
+                        {
+                            "cor": "Negro",
+                            "tallas": [
+                                39,
+                                40,
+                                41
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "marca": "New Balance",
+                    "modelo": "Minimus TR",
+                    "ventas": 2,
+                    "caracteristicas": {
+                        "uso": "forza e mobilidade",
+                        "estabilidade": "media",
+                        "peso": 310
+                    },
+                    "cores": [
+                        {
+                            "cor": "Negro",
+                            "tallas": [
+                                36
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "pedidos": [
+        {
+            "id": 1,
+            "marca": "New Balance",
+            "modelo": "Minimus TR",
+            "cor": "Negro",
+            "talla": 39,
+            "cantidad": 2,
+            "dia": "11-01-2026",
+            "dia_entrega": "13-01-2026"
+        },
+        {
+            "id": 2,
+            "marca": "Puma",
+            "modelo": "Fuse 2.0",
+            "cor": "Negro",
+            "talla": 40,
+            "cantidad": 5,
+            "dia": "11-01-2026",
+            "dia_entrega": "17-01-2026"
+        },
+        {
+            "id": 3,
+            "marca": "New Balance",
+            "modelo": "Minimus TR",
+            "cor": "Negro",
+            "talla": 38,
+            "cantidad": 2,
+            "dia": "17-01-2026",
+            "dia_entrega": ""
+        },
+        {
+            "id": 3,
+            "marca": "New Balance",
+            "modelo": "Minimus TR",
+            "cor": "Negro",
+            "talla": 41,
+            "cantidad": 5,
+            "dia": "18-01-2026",
+            "dia_entrega": ""
+        }
+    ]
+}
