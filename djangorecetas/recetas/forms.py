@@ -4,24 +4,18 @@ from .models import Ingrediente, Plato, MenuSemanal
 
 class IngredienteForm(forms.ModelForm):
     """
-    Formulario para crear o editar ingredientes.
+    Formulario para crear ou editar ingredientes.
 
-    Este formulario permite la creación y modificación de objetos
-    del modelo Ingrediente.
-
-    :returns: Formulario de ingrediente validado
-    :rtype: IngredienteForm
+    Permite a creación e modificación de obxectos do modelo Ingrediente.
     """
 
     class Meta:
         """
-        Configuración del formulario.
+        Configuración do formulario.
 
-        :ivar model: Modelo asociado al formulario
-        :vartype model: Ingrediente
-
-        :ivar fields: Campos incluidos en el formulario
-        :vartype fields: list
+        Attributes:
+            model: Modelo asociado ao formulario (Ingrediente)
+            fields: Campos incluídos no formulario
         """
         model = Ingrediente
         fields = '__all__'
@@ -29,23 +23,18 @@ class IngredienteForm(forms.ModelForm):
 
 class PlatoForm(forms.ModelForm):
     """
-    Formulario para crear o editar platos.
+    Formulario para crear ou editar pratos.
 
-    Este formulario permite gestionar los platos y sus ingredientes.
-
-    :returns: Formulario de plato validado
-    :rtype: PlatoForm
+    Permite xestionar pratos e os seus ingredientes.
     """
 
     class Meta:
         """
-        Configuración del formulario.
+        Configuración do formulario.
 
-        :ivar model: Modelo asociado al formulario
-        :vartype model: Plato
-
-        :ivar fields: Campos incluidos en el formulario
-        :vartype fields: list
+        Attributes:
+            model: Modelo asociado ao formulario (Plato)
+            fields: Campos incluídos no formulario
         """
         model = Plato
         fields = '__all__'
@@ -53,23 +42,18 @@ class PlatoForm(forms.ModelForm):
 
 class MenuSemanalForm(forms.ModelForm):
     """
-    Formulario para crear o editar menús semanales.
+    Formulario para crear ou editar menús semanais.
 
-    Permite asignar platos a una semana y año concretos.
-
-    :returns: Formulario de menú validado
-    :rtype: MenuSemanalForm
+    Permite asignar pratos a unha semana e ano concretos.
     """
 
     class Meta:
         """
-        Configuración del formulario.
+        Configuración do formulario.
 
-        :ivar model: Modelo asociado al formulario
-        :vartype model: MenuSemanal
-
-        :ivar fields: Campos incluidos en el formulario
-        :vartype fields: list
+        Attributes:
+            model: Modelo asociado ao formulario (MenuSemanal)
+            fields: Campos incluídos no formulario
         """
         model = MenuSemanal
         fields = '__all__'
