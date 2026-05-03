@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% load extras %}
+
+{% block content %}
+<h1>Platos</h1>
+
+<a href="{% url 'crear_plato' %}" class="btn">Nuevo plato</a>
+
+<ul>
+    {% for p in platos %}
+        <li>
+            <strong>{{ p.nome|mayusculas }}</strong> ({{ p.tipo }})
+
+            <br>
+            Total ingredientes: {{ p|contar_ingredientes }}
+
+            <br>
+
+            {% if p.foto %}
+                <img src="{{ p.foto.url }}" width="150">
+            {% else %}
+                <p>Sin imagen</p>
+            {% endif %}
+
+            <br>
+            Ingredientes:
+            <ul>
+                {% for i in p.ingredientes.all %}
+                    <li>{{ i.nome }}</li>
+                {% empty %}
+                    <li>Sin ingredientes</li>
+                {% endfor %}
+            </ul>
+
+            <a href="{% url 'editar_plato' p.id %}" class="btn-edit">Editar</a>
+            <a href="{% url 'eliminar_plato' p.id %}" class="btn-delete">Eliminar</a>
+        </li>
+    {% empty %}
+        <li>No hay platos</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

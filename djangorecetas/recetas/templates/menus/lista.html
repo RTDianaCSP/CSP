@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load extras %}
+
+{% block content %}
+<h1>Menús Semanales</h1>
+
+<a href="{% url 'crear_menu' %}" class="btn">Nuevo menú</a>
+
+<ul>
+    {% for m in menus %}
+        <li>
+            <strong>{{ m|formato_menu }}</strong>
+
+            <br>
+            Total platos: {% total_platos m %}
+
+            <br>
+            Platos:
+            <ul>
+                {% for p in m.platos.all %}
+                    <li>{{ p.nome }}</li>
+                {% empty %}
+                    <li>Sin platos</li>
+                {% endfor %}
+            </ul>
+
+            <a href="{% url 'editar_menu' m.id %}" class="btn-edit">Editar</a>
+            <a href="{% url 'eliminar_menu' m.id %}" class="btn-delete">Eliminar</a>
+        </li>
+    {% empty %}
+        <li>No hay menús</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

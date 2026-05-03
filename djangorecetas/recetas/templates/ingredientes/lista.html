@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load extras %}
+
+{% block content %}
+<h1>Ingredientes</h1>
+
+<a href="{% url 'crear_ingrediente' %}" class="btn">Nuevo ingrediente</a>
+
+<ul>
+    {% for i in ingredientes %}
+        <li>
+            {{ i.nome|mayusculas }} - {{ i.cantidade }}
+
+            <a href="{% url 'editar_ingrediente' i.id %}" class="btn-edit">Editar</a>
+            <a href="{% url 'eliminar_ingrediente' i.id %}" class="btn-delete">Eliminar</a>
+        </li>
+    {% empty %}
+        <li>No hay ingredientes</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
