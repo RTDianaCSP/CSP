@@ -9,7 +9,7 @@ def crear_menu(menu):
     cursor.execute(
         """
         INSERT INTO menu_semanal (semana, ano)
-        VALUES (?, ?)
+        VALUES (%s, %s)
         """,
         (menu.semana, menu.ano)
     )
@@ -19,7 +19,7 @@ def crear_menu(menu):
     for plato in menu.getPlatos():
 
         cursor.execute(
-            "SELECT id FROM plato WHERE nome = ?",
+            "SELECT id FROM plato WHERE nome = %s",
             (plato.nome,)
         )
 
@@ -28,7 +28,7 @@ def crear_menu(menu):
         cursor.execute(
             """
             INSERT INTO menu_plato (menu_id, plato_id)
-            VALUES (?, ?)
+            VALUES (%s, %s)
             """,
             (menu_id, plato_id)
         )

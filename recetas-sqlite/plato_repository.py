@@ -8,7 +8,7 @@ def crear_plato(plato):
     cursor = conn.cursor()
 
     cursor.execute(
-        "SELECT id FROM plato WHERE nome = ?",
+        "SELECT id FROM plato WHERE nome = %s",
         (plato.nome,)
     )
 
@@ -22,7 +22,7 @@ def crear_plato(plato):
         """
         INSERT INTO plato
         (nome, tipo, data, tempada, preparacion, foto)
-        VALUES (?, ?, ?, ?, ?, ?)
+        VALUES (%s, %s, %s, %s, %s, %s)
         """,
         (
             plato.nome,
